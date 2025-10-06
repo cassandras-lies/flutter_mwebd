@@ -21,7 +21,7 @@ A new Flutter FFI plugin project.
   s.prepare_command = <<-CMD
     "./run_build.sh"
   CMD
-  s.vendored_frameworks = 'build/flutter_mwebd.framework'
+  s.vendored_frameworks = 'build/macos/universal/flutter_mwebd.framework'
 
   # If your plugin requires a privacy manifest, for example if it collects user
   # data, update the PrivacyInfo.xcprivacy file to describe your plugin's
